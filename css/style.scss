@@ -69,9 +69,24 @@ body {
     @include num(90%, 60%);
     background: #fff;
     border-radius: .08rem;
+    padding: .3rem;
     h1 {
         @include num(100%, .3rem);
         text-align: center;
         line-height: .3rem;
+    }
+    input {
+        @include num(100%, .3rem);
+        margin-top: .3rem;
+        border: none;
+        border-bottom: 1px solid #ccc;
+    }
+    button {
+        background: green;
+        margin-top: .3rem;
+        @include num(100%, .3rem);
+        border: none;
+        border-radius: .05rem;
+        color: #fff;
     }
 }
